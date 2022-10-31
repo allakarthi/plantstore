@@ -1,0 +1,72 @@
+
+body{
+	
+}
+.desc{
+	width:auto;
+	height:10vh;
+	border:2px solid black;
+	margin-bottom:20px;
+	text-align:center;
+	font-size: 2em;
+}
+
+.country{
+	border: 2px solid black;
+	width: auto;
+	height: 200vh;
+	padding:10px;
+}
+.cardia{
+	display:inline-flex;
+	flex-direction:column;
+	border: 2px solid white;
+	width: 20%;
+	height: 30%;
+	border-radius: 5px;
+	position:relative;
+	box-shadow: -2px 2px 8px rgba(127, 239, 42, 0.9);
+	margin:20px 33px;
+	transition:all 0.3s ease-in;
+}
+.cardia:hover{
+	transform:scale(1.1);
+}
+.cardia img{
+	border-radius: 5px;
+	width: 100%;
+	height: 70%;
+}
+.cardia label{
+	
+	border:2px solid black;
+	border-radius:5px;
+	justify-content: center;
+	text-align: center;
+	padding:10px;
+	margin:20px;
+	margin-top:40px;
+	text-decoration:none;
+	
+}
+.cardia label a{
+	text-decoration:none;
+	color:green;
+	font-size:1.2em;
+}
+
+.cardia label:hover{
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+

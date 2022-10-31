@@ -1,0 +1,74 @@
+body{
+    height:250vh;
+}
+.heading{
+    
+    text-align: center;
+    border-radius:30px;  
+}
+.heading h1{
+    display: inline-flex;
+    background-color: rgb(103, 157, 219);
+    color:white;
+    border-radius: 9px;
+    padding:9px;
+}
+.desc{
+    
+    margin:3px;
+    display:flex;
+    border-radius:10px;
+    padding:20px;
+}
+.desc p{
+    font-size:1.6em;
+}
+.desc img{
+    width:30%;
+    height:20%;
+    border-radius:10px;
+}
+.cult{
+   
+    font-size:1.6em;
+    display:flex;
+    padding:8px;
+}
+.cult p label{
+    font-size:2em;
+    text-align: center;
+    display:block;
+    
+}
+.cult img{
+    margin-right:30px;
+    width:40%;
+    border-radius:10px;
+}
+.about{
+    font-size:1.6em;
+    
+    margin:5px;
+    padding:10px;
+}
+.about label{
+    font-size:1.7em;
+    display:block;
+    text-align: center;
+}
+.buy{
+    text-align:center;
+    
+}
+.buy h1{
+    display:inline-flex;
+    background-color:rgb(12, 241, 12);
+    border-radius:9px;
+    padding:10px;
+}
+.buy:hover{
+    cursor:pointer;
+}
+
+
+
